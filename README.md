@@ -68,3 +68,13 @@ The recommender works as the following:
                   8a- if yes, give another name from the same cluster
           
                   8b- if no, give a name from another cluster 
+
+
+Here is an example of a try:
+Are you looking for a recommandation for a girl or a boy? Please enter girl or boy: girl
+Enter a name you like: CARLA
+Our recommendation is AMEL.
+Do you like this name? please answer yes or no: YES
+Our next recommendation is HÉLOÏSE.
+Do you like this name? please answer yes or no: NO
+Our last recommendation is PRISCA. Thank you for using our recommender
