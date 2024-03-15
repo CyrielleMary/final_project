@@ -20,6 +20,47 @@ Baby_names_MODEL: the notebook where the model and the recommender are build
 
 Baby_names_TABLEAU: the notebook were the data are build to fit in Tableau
 
+## Features
+#### FROM PYTHON
+Given_total = the number of times the name was given
+
+Given_since2013 = total count since 2013
+
+Given_since2018 = total count since 2013
+
+Given_2013yn = if the name appears at least once since 2013
+
+Given_2018yn = if the name appears at least once since 2018
+
+Popularity_10y = % evolution since 2013
+
+Popularity_5y = % evolution since 2018
+
+Decade = the decade the name was the most popular (1900-1910=1900s ; 1910-1920=1910s ; ... ; 2010-2022= since 2010)
+
+Lenght = length of the names
+
+Neutral = find same names given for gender=F and gender=M
+
+Hyphen = names with hyphen (1=yes ; 0=no)
+
+Count = how many years the name was given at least once
+
+Category = names are put into same sized bins (Very Popular, Popular, Common, Uncommon, Rare, Very rare)
+
+#### FROM WEB SCRAPING (1=yes ; 0=no)
+Flower_names = 1 or 0 is the names is from a flower or related to nature
+
+10 Origin features (origin_names) = 1 or 0 (origin=arabic, greek, turkish, american, english, french, italian, latin, celt, germanic)
+
+Biblic_names = 1 or 0
+
+Viking_names = 1 or 0
+
+Mythology_names = 1 or 0
+
+Fiction_names = 1 or 0 (grouped together disney names, heros names, fairy names)
+
 ## Tableau
 https://public.tableau.com/app/profile/cyrielle.mary/viz/End-Project2/evolmixed?publish=yes
 
